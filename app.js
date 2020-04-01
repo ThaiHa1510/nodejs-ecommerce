@@ -1,4 +1,5 @@
 const express =require('express');
+const env=require('dotenv').config();
 const bodyParser=require('body-parser');
 const cookieParser=require('cookie-parser');
 const session=require('express-session');
