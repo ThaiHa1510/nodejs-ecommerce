@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "demo",
+    "password": "password",
+    "database": "eCommerceNodejs",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port":3306,
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "demo",
+      "password": "password",
+    "database": "eCommerceNodejs",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false,
+    "port":3306
+  },
+  "production": {
+    "username": "demo",
+    "password": "password",
+    "database": "eCommerceNodejs",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port":3306,
+    "operatorsAliases": false
+  }
+}
