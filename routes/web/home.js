@@ -104,22 +104,7 @@ module.exports = function (db, app) {
      })();
 
   })
-  /**
-  route.get('/add-to-cart/:id', function(req, res) {
-   
-    let Products=db.products;
-    Products.findAll({
-      where:{
-        id:req.params.id
-      }
-    }).then(product => {
-      res.render('products',{title:'Shop page',
-      products:product});
-    });
-    
-    
-  });
-  */
+  
   route.get('/checkout', function (req, res) {
     //res.send('<h1>About page</h1>');
     res.render('order', {
